@@ -32,7 +32,7 @@ public class student {
      public void setDob(LocalDate dob){
         this.dob=dob;
      }
-      public float getCgpa(){
+     public float getCgpa(){
         return cgpa;
      }
      public void setCgpa(float cgpa){
