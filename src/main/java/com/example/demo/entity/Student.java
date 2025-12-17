@@ -3,8 +3,11 @@ package com.example.demo.entity;
 import java.time.LocalDate;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 @Entity
 public class student {
+    @Id
+    @GeneratedValue()
      private Long id;
      private String name;
      private String dept;
