@@ -4,10 +4,13 @@ import java.time.LocalDate;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+
 @Entity
-public class student {
+public class Student {
     @Id
-    @GeneratedValue()
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
      private Long id;
      private String name;
      private String dept;
