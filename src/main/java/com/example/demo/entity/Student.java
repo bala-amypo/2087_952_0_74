@@ -12,6 +12,7 @@ public class Student {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
      private Long id;
+     @NotEm
      private String name;
      private String dept;
      private LocalDate dob;
