@@ -11,4 +11,9 @@ public interface StudentService {
      List<Student> getAllStudents();
      Optional<Student> getById(Long id);
      String updateData(Long id,Student st);
+     String deleteData(Long id);
 }
+
+
+
+
