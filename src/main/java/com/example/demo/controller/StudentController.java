@@ -23,7 +23,7 @@ public class StudentController {
     }
     @GetMapping("/getall")
     public List<Student> get(){
-        return stdser.getAllStudents();
+        return stdser.getAllStudents(); 
     }
     @GetMapping("/getById/{id}")
     public Optional<Student> getId(@PathVariable Long id){
@@ -34,6 +34,12 @@ public class StudentController {
         return stdser.updateData(id,st);
     }
 }
+
+
+
+
+
+
 
 
 
