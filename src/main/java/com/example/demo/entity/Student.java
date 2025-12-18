@@ -12,7 +12,6 @@ public class Student {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
      private Long id;
-     @NotEmpty(message="Name should not be null")
      private String name;
      private String dept;
      private LocalDate dob;
