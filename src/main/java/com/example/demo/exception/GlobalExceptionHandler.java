@@ -1,6 +1,7 @@
 package com.example.demo.exception;
 
-import org.springframework.web.bind.annotation.MethodArgumentNotValidException;
+import org.springframework.web.bind.PasswordNotMatchCri;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
