@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public String hello(){
+    public ResponseEntity hello(){
        return "hello";
    }
 
@@ -17,6 +17,7 @@ public class GlobalExceptionHandler {
        return "Hi";
    }
 }
+
 
 
 
