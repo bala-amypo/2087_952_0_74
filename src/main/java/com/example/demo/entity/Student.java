@@ -16,7 +16,7 @@ public class Student {
      @NotBlank(message="Name should not be null")
      private String name;
      private String dept;
-     @Past(message="Provide valid dob")
+     @Past(message="Date of birth should be past")
      private LocalDate dob;
      private float cgpa;
      public Long getId(){
